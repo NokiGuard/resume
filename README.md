@@ -3,7 +3,7 @@
 #### Technical Skills: Python, Bash, SQL, Network Security, Risk Managmenet
 
 ## Education
-- BSc, Information Technology and Management | University at Buffalo							       		
+- BSc, IT and Management | University at Buffalo							       		
 
 ## Work Experience
 **Security Consulting Engineer Intern @ Cisco**

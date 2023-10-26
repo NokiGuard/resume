@@ -33,4 +33,3 @@
 - CompTIA, Security Plus (Sec+) | January 2022
   - [Sec+ Credly](https://www.credly.com/badges/0af8fcb4-6c2e-458d-8063-cd8d1d801209/public_url) 
 
-<script src="http://code.jquery.com/jquery-1.4.2.min.js"></script> <script> var x = document.getElementsByClassName("site-footer-credits"); setTimeout(() => { x[0].remove(); }, 10); </script>

@@ -1,4 +1,4 @@
-# Information Security
+# Information Security Portfolio
 
 #### Technical Skills: Python, Bash, SQL, Network Security, Risk Managmenet
 
@@ -16,6 +16,11 @@
 - Formulated robust policies and controls to enhance organizational security posture, facilitate risk management, and fortify system safeguards against malicious activities
 - Implemented the National Institute of Standards and Technology Cybersecurity Framework (NIST CSF) for compliance and matched Center for Internet Security (CIS) Critical Security Controls to NIST CSF
 - Trained employees about Cybersecurity best practices, business continuity plan, and incident response for Public Background Screening Accreditation (PBSA) audit
+
+**_Cybersecurity Specialist Intern_ @ N Brereton Medical Technologies (_December 2021-May 2022_)**
+- Conducted thorough threat and risk analyses, delivering actionable recommendations to enhance business security posture
+- Initiated and integrated the NIST Cybersecurity Framework (NIST CSF) publication to be compliant
+- Designed security protocols to prevent phishing, ransomware, and data loss with Chief Operating Officer and team members
 
 ## Projects
 ### Home Lab

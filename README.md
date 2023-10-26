@@ -25,5 +25,7 @@
 
 ## Certifications
 - Cisco, Cisco Certified Network Associate (CCNA) | July 2023
+-- [CCNA Credly](https://www.credly.com/badges/2bd64447-680a-43f6-a6db-5db4a6b2bbd8/public_url)
+  
 - CompTIA, Cybersecurity Analyst Plus (CySA+) | March 2022
 - CompTIA, Security Plus (Sec+) | January 2022

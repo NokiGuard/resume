@@ -1,3 +1,5 @@
+https://github.com/NokiGuard/NokiGuard.github.io/blob/f763416b7d2f0cfbbe869be5801b3aa24b8c5d72/assets/headshot_roundsquare.png
+
 # Information Security Portfolio
 
 #### Technical Skills: Python, Bash, SQL, Network Security, Risk Managmenet

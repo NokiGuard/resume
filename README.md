@@ -1,4 +1,4 @@
-https://github.com/NokiGuard/NokiGuard.github.io/blob/f763416b7d2f0cfbbe869be5801b3aa24b8c5d72/assets/headshot_roundsquare.png
+![headshot_roundsquare](https://github.com/NokiGuard/NokiGuard.github.io/assets/149091263/3dade5cf-ebc9-4ab7-83c1-9a9db545faf2)
 
 # Information Security Portfolio
 

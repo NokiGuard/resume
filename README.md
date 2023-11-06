@@ -26,9 +26,10 @@
 
 ## Projects
 ### Home Lab
-- Created a networking rack that runs OPNsense firewall with IDS and VLANs for network segmentation
-- Intergrated Adguard Home with recursive Unbound Domain Name System (DNS) as a network wide DNS sinkhole
+- Created a networking rack that runs OPNsense firewall with IDS and VLANs with unique subnets for network segmentation
+- Integrated Adguard Home with recursive Unbound Domain Name System (DNS) as a network wide DNS sinkhole
 - Deployed a bash script to enable Dynamic Domain Name System (DDNS) though Cloudflare
+
 
 ## Certifications
 - Cisco, Cisco Certified Network Associate (CCNA)  | July 2023

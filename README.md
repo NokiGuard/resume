@@ -1,6 +1,3 @@
-
-![1647008926198](https://github.com/NokiGuard/NokiGuard.github.io/assets/149091263/7b17990b-0e44-4c47-8383-50f92920c722)
-
 # Information Security Portfolio
 
 #### Technical Skills: Python, Bash, SQL, Network Security, Risk Managmenet

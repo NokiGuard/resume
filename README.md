@@ -31,12 +31,12 @@
 - Deployed a bash script to enable Dynamic Domain Name System (DDNS) though Cloudflare
 
 ## Certifications
-- Cisco, Cisco Certified Network Associate (CCNA) | July 2023
+- Cisco, Cisco Certified Network Associate (CCNA)  | July 2023
   - [CCNA Credly](https://www.credly.com/badges/2bd64447-680a-43f6-a6db-5db4a6b2bbd8/public_url)
   
-- CompTIA, Cybersecurity Analyst Plus (CySA+)         | March 2022
+- CompTIA, Cybersecurity Analyst Plus (CySA+)  | March 2022
   - [CySA+ Credly](https://www.credly.com/badges/d264da66-b303-4c67-bc12-b66797641b2c/public_url)
 
-- CompTIA, Security Plus (Sec+)                           | January 2022
+- CompTIA, Security Plus (Sec+)  | January 2022
   - [Sec+ Credly](https://www.credly.com/badges/0af8fcb4-6c2e-458d-8063-cd8d1d801209/public_url) 
 

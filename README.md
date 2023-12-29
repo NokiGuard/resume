@@ -2,7 +2,8 @@
 
 # Information Security Portfolio
 
-#### Technical Skills: Python, Bash, SQL, Network Security, Risk Managmenet
+#### Technical Skills and Management
+- Python, Bash, SQL, Network Security, Routing & Switching, VLANs, Virtualization, IDS/IPS, OPNsense, Email Forensics, Risk Analysis, Risk Management, Threat Hunting
 
 ## Education
 - BSc, IT and Management | University at Buffalo							       		

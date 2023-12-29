@@ -24,7 +24,7 @@
 **_Cybersecurity Specialist Intern_ @ N Brereton Medical Technologies (_December 2021-May 2022_)**
 - Conducted thorough threat and risk analyses, delivering actionable recommendations to enhance business security posture
 - Initiated and integrated the NIST Cybersecurity Framework (NIST CSF) publication to be compliant
-- Coordinated meetings with other interns to assist security lead
+- Coordinated meetings with other interns to assist security lead with assigned tasks
 - Designed security protocols to prevent phishing, ransomware, and data loss with Chief Operating Officer and team members
 
 ## Projects

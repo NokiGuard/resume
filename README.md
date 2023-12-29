@@ -10,8 +10,10 @@
 ## Work Experience
 **_Security Consulting Engineer Intern_ @ Cisco (_May 2023-August 2023_)**
 - Engineered cyber defense with Cisco Identity Service Engine (ISE) & Active Directory for 802.1X (PEAP, EAP-TLS) with MAC Authentication Bypass (MAB) while implementing Guest Portal, Profiling, Posturing, Logging for enhanced security
-- Contributed to crafting a Master Cisco ISE 3.1 Upgrade Method of Procedure (MoP) template for internal use
+- Shadowed mentor during customer calls to gain insights into Cisco ISE and refine consulting skills for Cisco customers
+- Created a Master Cisco ISE 3.1 Upgrade Method of Procedure (MoP) template for internal use
 - Collaborated with Information Security Engineers on FedRAMP compliance, gaining insights into Continuous Monitoring, Change Management, and securing market access for Cisco's SaaS offerings within the Global Cloud Compliance team
+- Studied and passed Cisco Certified Network Associate - Routing and Switching certification within 6 weeks
 
 **_Cybersecurity Analyst_ @ XG Consultants Group (_July 2022-November 2022_)**
 - Provided essential Cybersecurity advisory, crisis mitigation, risk assessment, and resolution support to clients facing potential threats and suspicious activities, ensuring effective threat response and risk management
@@ -22,13 +24,14 @@
 **_Cybersecurity Specialist Intern_ @ N Brereton Medical Technologies (_December 2021-May 2022_)**
 - Conducted thorough threat and risk analyses, delivering actionable recommendations to enhance business security posture
 - Initiated and integrated the NIST Cybersecurity Framework (NIST CSF) publication to be compliant
+- Coordinated meetings with other interns to assist security lead
 - Designed security protocols to prevent phishing, ransomware, and data loss with Chief Operating Officer and team members
 
 ## Projects
 ### Home Lab
-- Created a networking rack that runs OPNsense firewall with IDS and VLANs with unique subnets for network segmentation
-- Integrated Adguard Home with recursive Unbound Domain Name System (DNS) as a network wide DNS sinkhole
-- Deployed a bash script to enable Dynamic Domain Name System (DDNS) though Cloudflare
+- Established a networking rack featuring OPNsense firewall, VLANs, and distinct subnets for effective network segmentation
+- Integrated Zenarmor NGFW and Crowdsec Security Engine with recursive Unbound Domain Name System (DNS) as a network wide DNS sinkhole and IPS
+- Deployed Proxmox for virtualization, enhancing network security by using Wazuh XDR, TrueNAS, and Nginx Proxy Manager within virtual machines and Docker containers
 
 
 ## Certifications

@@ -2,7 +2,7 @@
 
 # Information Security Portfolio
 
-#### Technical Skills and Management
+### Technical Skills and Management
 - Python, Bash, SQL, Network Security, Routing & Switching, VLANs, Virtualization, IDS/IPS, OPNsense, Email Forensics, Risk Analysis, Risk Management, Threat Hunting
 
 ## Education

@@ -3,7 +3,7 @@
 # Information Security Portfolio
 
 ## Technical Skills and Management
-- Python, Bash, SQL, Network Security, Routing & Switching, VLANs, Virtualization, IDS/IPS, OPNsense, Email Forensics, Risk Analysis, Risk Management, Threat Hunting
+- Python, Bash, SQL, Routing & Switching, VLANs, Virtualization, IDS/IPS, Firewalls, Email Forensics, Risk Analysis, Risk Management, Threat Hunting
 
 ## Education
 - BSc, IT and Management | University at Buffalo							       		
@@ -31,8 +31,8 @@
 ## Projects
 ### Home Lab
 - Established a networking rack featuring OPNsense firewall, VLANs, and distinct subnets for effective network segmentation
-- Integrated Zenarmor NGFW and Crowdsec Security Engine with recursive Unbound Domain Name System (DNS) as a network wide DNS sinkhole and IPS
-- Deployed Proxmox for virtualization, enhancing network security by using Wazuh XDR, TrueNAS, and Nginx Proxy Manager within virtual machines and Docker containers
+- Integrated Suricata IDS/IPS, Zenarmor NGFW, Crowdsec Security Engine, and recursive Unbound Domain Name System (DNS) as a network wide DNS sinkhole
+- Deployed Proxmox for virtualization, enhancing network security and monitoring by using Wazuh SIEM/XDR, Prometheus, Grafana, and Nginx Reverse Proxy Manager within virtual machines, docker containers, and LXC containers
 
 
 ## Certifications

@@ -3,7 +3,7 @@
 # Information Security Portfolio
 
 ## Technical Skills and Management
-- Python, Bash, SQL, Routing & Switching, VLANs, VPN, Virtualization, IDS/IPS, Firewalls, Email Forensics, Risk Analysis, Risk Management, Threat Hunting
+- Python, Bash, YAML, SQL, Routing, Switching, Cisco IOS, Cisco ISE, 802.1X, Docker & Docker Compose, Snort & Suricata IDS/IPS, Wazuh SIEM/XDR, Wireshark, Firewalls, VLANs, VPNs, DNS, Virtualization, Logging and Monitoring, Threat Hunting
 
 ## Education
 - BSc, IT and Management | University at Buffalo							       		
@@ -14,7 +14,6 @@
 - Shadowed mentor during customer calls to gain insights into Cisco ISE and refine consulting skills for Cisco customers
 - Created a Master Cisco ISE 3.1 Upgrade Method of Procedure (MoP) template for internal use
 - Collaborated with Information Security Engineers on FedRAMP compliance, gaining insights into Continuous Monitoring, Change Management, and securing market access for Cisco's SaaS offerings within the Global Cloud Compliance team
-- Studied and passed Cisco Certified Network Associate - Routing and Switching certification within 6 weeks
 
 **_Cybersecurity Analyst_ @ XG Consultants Group (_July 2022-November 2022_)**
 - Provided essential Cybersecurity advisory, crisis mitigation, risk assessment, and resolution support to clients facing potential threats and suspicious activities, ensuring effective threat response and risk management

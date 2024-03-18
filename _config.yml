@@ -4,5 +4,4 @@ description: Welcome to my portfolio site!
 show_downloads: false
 plugins:
 - jekyll-remote-theme 
-- jekyll-remote-theme
 remote_theme: pages-themes/architect@v0.2.0

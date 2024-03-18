@@ -1,9 +1,13 @@
 @import "{{ site.theme }}";
 
+header {
+  display: none;
+}
+
 footer {
-  display: none !important;
+  display: none;
 }
 
 .btn {
-  display: none !important;
+  display: none;
 }

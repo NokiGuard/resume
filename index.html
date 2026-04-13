@@ -637,18 +637,26 @@
   window.addEventListener('resize', initMatrix);
 
   // ── Boot sequence ──
-  const bootLines = [
-    '> BIOS v4.2.1 ... OK',
-    '> Loading kernel modules ...',
-    '> Initializing network stack ... OK',
-    '> Mounting encrypted volumes ... OK',
-    '> Starting Wazuh agent ... OK',
-    '> Establishing VPN tunnel ... OK',
-    '> Verifying DoD clearance ... ██████████ GRANTED',
-    '> Loading resume.txt ...',
-    '',
-    '  Access granted. Welcome, recruiter.',
-    '',
+  // [text, delay_after_ms]
+  const bootSequence = [
+    ['> BIOS v4.2.1 ... OK',                          150],
+    ['> Initializing hardware components ...',         200],
+    ['> Loading kernel modules ... OK',                200],
+    ['> Mounting encrypted volumes ...',               450],
+    ['> Encrypted volumes mounted ... OK',             150],
+    ['> Starting network stack ... OK',                200],
+    ['> Starting Wazuh SIEM agent ... OK',             200],
+    ['> Establishing VPN tunnel ...',                  500],
+    ['> VPN tunnel established ... OK',                200],
+    ['> Scanning environment for threats ...',         350],
+    ['> Threat scan complete ... NONE DETECTED',       200],
+    ['> Verifying DoD TS/SCI clearance ...',           600],
+    ['> ██████████ CLEARANCE GRANTED',                 300],
+    ['> Loading profile: BTRUONG ...',                 200],
+    ['> Loading resume.txt ...',                       200],
+    ['',                                               150],
+    ['  Access granted. Welcome, recruiter.',          900],
+    ['',                                               120],
   ];
 
   const bootLog = document.getElementById('boot-log');
@@ -657,7 +665,7 @@
 
   let lineIndex = 0;
   function printNextLine() {
-    if (lineIndex >= bootLines.length) {
+    if (lineIndex >= bootSequence.length) {
       setTimeout(() => {
         bootEl.classList.add('fade');
         appEl.classList.add('visible');
@@ -665,9 +673,10 @@
       }, 300);
       return;
     }
-    bootLog.textContent += bootLines[lineIndex] + '\n';
+    const [text, delay] = bootSequence[lineIndex];
+    bootLog.textContent += text + '\n';
     lineIndex++;
-    setTimeout(printNextLine, lineIndex === bootLines.length - 1 ? 600 : 120);
+    setTimeout(printNextLine, delay);
   }
   setTimeout(printNextLine, 400);
 

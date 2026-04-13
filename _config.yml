@@ -1,7 +1,0 @@
-title: Hi, I am Brian!
-logo: assets/headshot_roundsquare.png
-description: Welcome to my portfolio site!
-show_downloads: false
-plugins:
-- jekyll-remote-theme 
-remote_theme: pages-themes/hacker@v0.2.0

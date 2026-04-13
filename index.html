@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brian Truong — Resume</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      font-size: 14px;
+      color: #1a1a1a;
+      background: #f4f4f4;
+      padding: 32px 16px;
+    }
+
+    .page {
+      max-width: 860px;
+      margin: 0 auto;
+      background: #fff;
+      padding: 48px 52px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+    }
+
+    /* Header */
+    header { text-align: center; margin-bottom: 18px; }
+    header h1 { font-size: 28px; font-weight: 700; letter-spacing: 0.5px; }
+    .contact {
+      margin-top: 6px;
+      font-size: 13px;
+      color: #333;
+    }
+    .contact a { color: #1a1a1a; text-decoration: none; }
+    .contact a:hover { text-decoration: underline; }
+    .contact span { margin: 0 5px; color: #aaa; }
+
+    /* Sections */
+    section { margin-top: 20px; }
+
+    .section-title {
+      font-size: 13px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      border-bottom: 2px solid #1a1a1a;
+      padding-bottom: 3px;
+      margin-bottom: 12px;
+    }
+
+    /* Skills */
+    .skills p { margin-bottom: 4px; line-height: 1.5; }
+    .skills strong { font-weight: 600; }
+
+    /* Experience */
+    .job { margin-bottom: 14px; }
+    .job-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      flex-wrap: wrap;
+      gap: 4px;
+    }
+    .job-header .employer { font-weight: 700; font-size: 14px; }
+    .job-header .location { font-size: 13px; color: #444; }
+    .job-sub {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      flex-wrap: wrap;
+      gap: 4px;
+      margin-top: 1px;
+    }
+    .job-sub .title { font-style: italic; font-size: 13.5px; }
+    .job-sub .dates { font-size: 13px; color: #444; }
+    .job ul {
+      margin-top: 5px;
+      padding-left: 18px;
+    }
+    .job ul li {
+      margin-bottom: 4px;
+      line-height: 1.5;
+      font-size: 13px;
+    }
+
+    /* Certifications */
+    .cert-table { width: 100%; border-collapse: collapse; }
+    .cert-table tr td { padding: 3px 0; font-size: 13px; line-height: 1.5; }
+    .cert-table tr td:last-child { text-align: right; white-space: nowrap; color: #444; }
+    .cert-table strong { font-weight: 600; }
+
+    /* Projects */
+    .project { margin-bottom: 14px; }
+    .project-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      flex-wrap: wrap;
+      gap: 4px;
+    }
+    .project-header .proj-name { font-weight: 700; }
+    .project-header .proj-dates { font-size: 13px; color: #444; }
+    .project ul {
+      margin-top: 5px;
+      padding-left: 18px;
+    }
+    .project ul li {
+      margin-bottom: 4px;
+      line-height: 1.5;
+      font-size: 13px;
+    }
+
+    /* Education */
+    .edu-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      flex-wrap: wrap;
+      gap: 4px;
+      font-size: 13px;
+    }
+    .edu-row .school { font-weight: 600; }
+    .edu-row .degree { color: #444; }
+
+    @media print {
+      body { background: #fff; padding: 0; }
+      .page { box-shadow: none; padding: 0; }
+    }
+
+    @media (max-width: 600px) {
+      .page { padding: 24px 20px; }
+      .job-header, .job-sub, .project-header, .edu-row { flex-direction: column; }
+      .cert-table tr { display: flex; flex-direction: column; }
+      .cert-table tr td:last-child { text-align: left; }
+    }
+  </style>
+</head>
+<body>
+<div class="page">
+
+  <header>
+    <h1>Brian Truong</h1>
+    <p class="contact">
+      <a href="mailto:btruong321pp@gmail.com">btruong321pp@gmail.com</a>
+      <span>|</span>
+      (347) 854-3155
+      <span>|</span>
+      <a href="https://linkedin.com/in/btruonginfosec" target="_blank">linkedin.com/in/btruonginfosec</a>
+      <span>|</span>
+      <a href="https://github.com/NokiGuard" target="_blank">github.com/NokiGuard</a>
+      <span>|</span>
+      DoD Top Secret/SCI
+    </p>
+  </header>
+
+  <!-- Skills -->
+  <section class="skills">
+    <div class="section-title">Skills</div>
+    <p><strong>Technologies:</strong> OSI, TCP/IP, Routing, Switching, VLANs, VPNs, DNS, Firewalls, Virtualization, OAuth2, Nessus/ACAS, Cisco ISE, 802.1X, Docker &amp; Docker Compose, Snort &amp; Suricata IDS/IPS, Wazuh SIEM/XDR, Microsoft AD, Azure, AWS, Wireshark, VMware, Veeam</p>
+    <p style="margin-top:4px"><strong>Technical Languages:</strong> Python, Bash, PowerShell, YAML, SQL</p>
+  </section>
+
+  <!-- Experience -->
+  <section>
+    <div class="section-title">Experience</div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="employer">Northrop Grumman</span>
+        <span class="location">Dulles, VA</span>
+      </div>
+      <div class="job-sub">
+        <span class="title">Cyber Security Engineer</span>
+        <span class="dates">October 2025 – Present</span>
+      </div>
+      <ul>
+        <li>Strengthened program's security posture by conducting deep-dive impact analyses and automated vulnerability scanning across containerized and virtualized environments, reducing the attack surface through rapid remediation and strict compliance validation</li>
+        <li>Coordinated with DevOps to remediate critical software vulnerabilities identified by Fortify, Grype, XEOL, and OpenSCAP security scans</li>
+        <li>Developed comprehensive security testing suite for internal SDLC, identifying and remediating critical flaws in session management, error handling/info leakage, and cryptographic implementations prior to production deployment</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="employer">MC Dean</span>
+        <span class="location">Tysons, VA</span>
+      </div>
+      <div class="job-sub">
+        <span class="title">Security Engineer</span>
+        <span class="dates">July 2024 – October 2025</span>
+      </div>
+      <ul>
+        <li>Achieved a 95%+ DISA STIG compliance score across a mixed Windows, Linux, and Cisco infrastructure by systematically identifying, prioritizing, and remediating vulnerabilities discovered through ACAS vulnerability scans</li>
+        <li>Implemented a secure, high-performance testing environment leveraging Azure Hyper-converged Infrastructure (HCI) deployment on a Dell R740xd with a NVIDIA 5090 GPU, containerizing 6 critical PSIM and AI workloads across 2 Kubernetes clusters to accelerate testing, optimization, orchestration, and continuous learning for customer solutions</li>
+        <li>Built a 2nd Physical Security Information Management (PSIM) platform infrastructure using Everbridge software, SQL, 2 camera subsystems, and 2 access control sub-systems for ISSC PFPA customer requirement testing and PSIM operator training</li>
+        <li>Configured Suricata IDS/IPS with Elasticsearch, Kibana, &amp; Logstash (ELK) stack on a Dell R630 for logging, monitoring, and mitigating of malicious network traffic to our Cisco ASA, resulting in a 20% reduction in firewall processing load</li>
+        <li>Deployed a high availability solution by provisioning 3 $40,000 Dell PowerEdge R740xd servers in a fail-over cluster with Veeam backups, significantly improving disaster recovery capabilities and system resilience</li>
+        <li>Drove security procurement for Google's corporate campus by evaluating and interfacing with 8 drone detection and 12 AI/ML-based physical security solutions, developing 3 Business Requirement Documents (BRDs), and managing 12+ Request for Information (RFIs)</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="employer">Cisco</span>
+        <span class="location">Research Triangle Park, NC</span>
+      </div>
+      <div class="job-sub">
+        <span class="title">Security Consulting Engineer Intern</span>
+        <span class="dates">May 2023 – August 2023</span>
+      </div>
+      <ul>
+        <li>Conducted comprehensive security assessments (2 Plan Design Implement (PDIs), 5 Big Scrubs) for Pfizer, NBCU, and JP Morgan Chase, identifying and mitigating 3 critical vulnerabilities</li>
+        <li>Engineered cyber defense with Cisco Identity Service Engine (ISE) &amp; Active Directory for 802.1X (PEAP, EAP-TLS) with MAC Authentication Bypass (MAB) while implementing Guest Portal, Profiling, Posturing, Logging for improved security</li>
+        <li>Created a Master Cisco ISE 3.1 Upgrade Method of Procedure (MoP) template for internal use within 3 weeks on Cisco's Solution-centric Collaboration and Documentation Platform (SCDP)</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="employer">XG Consultants Group</span>
+        <span class="location">New York City, NY</span>
+      </div>
+      <div class="job-sub">
+        <span class="title">Cybersecurity Analyst</span>
+        <span class="dates">July 2022 – November 2022</span>
+      </div>
+      <ul>
+        <li>Provided essential Cybersecurity advisory, crisis management, risk assessment, and resolution support to 6 Chubb's clients facing potential threats and suspicious activities, ensuring effective threat response and risk analysis</li>
+        <li>Implemented National Institute of Standards and Technology Cybersecurity Framework (NIST CSF) for compliance and matched Center for Internet Security (CIS) Critical Security Controls to baseline Identifying, Protecting, Detecting, Responding, and Recovering guidelines</li>
+        <li>Trained employees about Cybersecurity best practices, business continuity plan, and incident response for Public Background Screening Accreditation (PBSA) audit within 5 months</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Certifications -->
+  <section>
+    <div class="section-title">Certifications</div>
+    <table class="cert-table">
+      <tr>
+        <td><strong>Amazon Web Services (AWS),</strong> Certified Solutions Architect – Associate</td>
+        <td>January 2026</td>
+      </tr>
+      <tr>
+        <td><strong>ISC2,</strong> Associate CISSP</td>
+        <td>April 2025</td>
+      </tr>
+      <tr>
+        <td><strong>Cisco,</strong> Cisco Certified Network Associate (CCNA)</td>
+        <td>July 2023</td>
+      </tr>
+      <tr>
+        <td><strong>CompTIA,</strong> Cybersecurity Analyst Plus (CySA+) and Security Plus (Sec+)</td>
+        <td>March 2022</td>
+      </tr>
+    </table>
+  </section>
+
+  <!-- Projects -->
+  <section>
+    <div class="section-title">Projects</div>
+    <div class="project">
+      <div class="project-header">
+        <span class="proj-name">Home Lab</span>
+        <span class="proj-dates">October 2023 – Present</span>
+      </div>
+      <ul>
+        <li>Integrated Suricata for network intrusion detection and prevention, Zenarmor NGFW with custom network security policies, Crowdsec Security Engine for crowd-sourced threat intelligence, and recursive Unbound DNS along with 7 block lists as a network-wide DNS sinkhole for over 15 network devices</li>
+        <li>Deployed and clustered 2 Proxmox nodes for virtualization, improving network security by using Wazuh SIEM/XDR to monitor 6 agents, Tailscale VPN &amp; Cloudflare tunnels for secure remote access, Authentik for OAuth SSO &amp; LDAP, and Nginx Reverse Proxy Manager within virtual machines, Docker, and LXC containers</li>
+        <li>Created logging and monitoring solution for 5 VMs and 7 containers, leveraging Prometheus, InfluxDB, Uptime Kuma, Glances, and Grafana</li>
+        <li>Automated virtual machine and LXC container configuration management using Ansible and Claude Code</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section>
+    <div class="section-title">Education</div>
+    <div class="edu-row">
+      <span class="school">University at Buffalo, The State University of New York</span>
+      <span class="degree">Bachelor of Science, Information Technology and Management</span>
+    </div>
+  </section>
+
+</div>
+</body>
+</html>
